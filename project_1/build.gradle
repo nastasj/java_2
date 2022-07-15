@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.6.0'
+    implementation 'org.slf4j:slf4j-jdk14:1.7.36'
+    implementation 'org.openqa.selenium:selenium-rc:1.0-20081010.060147'
+    implementation 'org.apache.httpcomponents:httpclient:4.5.13'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.2.1'
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'org.apache.httpcomponents:fluent-hc:4.5.13'
+
+}
